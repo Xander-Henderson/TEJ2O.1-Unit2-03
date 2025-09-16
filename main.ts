@@ -5,9 +5,8 @@
  * This program shows the area and the perimeter of a rectangle.
 */
 
-
-basic.pause(1000)
 basic.clearScreen()
+basic.pause(1000)
 
 //dimensions
 basic.showString('A rectangle has the of dimensions 5 cm & 3 cm.')
@@ -21,7 +20,7 @@ basic.pause(100)
 basic.clearScreen()
 
 //perimeter
-basic.showString('The perimeter would be: ' + ((5 * 2) + (3 * 2)).toString() + 'cm')
+basic.showString('The perimeter would be: ' + (2 * (5 + 3)).toString() + 'cm')
 basic.showIcon(IconNames.Happy)
 basic.pause(100)
 basic.clearScreen()
