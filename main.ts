@@ -10,7 +10,7 @@ basic.pause(1000)
 basic.clearScreen()
 
 //dimensions
-basic.showString('A rectangle has dimensions 5 cm & 3 cm.')
+basic.showString('A rectangle has the of dimensions 5 cm & 3 cm.')
 basic.pause(100)
 basic.clearScreen()
 
